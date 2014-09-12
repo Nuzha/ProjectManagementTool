@@ -1,0 +1,99 @@
+@media screen {
+/* override css in main */
+body{
+	margin-left: auto; margin-right: auto;
+	margin-top:20px;
+	width:100%;
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:0;
+	background-color:#FFFFFF;
+	color:#47535E;
+	font-size:0.7em;
+	font-family:Arial, sans-serif;
+}
+
+div.mainContent{
+	margin-left: auto; margin-right: auto;
+	width:800px;
+}
+table{
+	margin-left: auto; margin-right: auto;
+	width:98%;
+	border:1px solid #E6E6E6;
+	border-radius:5px;
+	box-sizing: border-box;
+	background-color:#F6F6F6;
+	border-collapse: collapse;
+}
+table td,table th{
+	border:1px solid #E6E6E6;
+	border-top:1px solid #FFFFFF;
+}
+table th{
+	background-color:#FFFFFF;
+}
+/*attc classes*/
+/*attc classes*/
+div.attcControls{
+	width:100%;
+	border:1px solid #E6E6E6;
+	border-radius:5px;
+	box-sizing: border-box;
+	background-color:#F6F6F6;
+}
+div.attcControls ul{
+	overflow:hidden;
+	padding:2px 2px 2px 2px;
+	margin:0px;
+}
+div.attcControls ul li{
+	margin:0px;
+	padding:0px 0px 0px 10px;
+	list-style-type: none;
+	display: inline;
+	float:right;
+	clear:none;
+}
+div.attcControls ul li a{
+	border:1px solid #9CDFF7;
+	border-radius:3px;
+	box-sizing: border-box;
+	background-color:#86D6F5;
+	padding:2px;
+	color:white;
+	text-decoration:none;
+	display:inline-block;
+	background-image:none;
+	font-weight:normal;
+}
+div.attcControls ul li a:hover{
+	border:1px solid white;
+	color:#47535E;
+}
+div.attcControls ul li fieldset{
+	border:1px solid #9CDFF7;
+	border-radius:3px;
+	box-sizing: border-box;
+	background-color:#86D6F5;
+	padding:2px;
+	margin:0px;
+	color:white;
+	text-decoration:none;
+}
+div.attcControls ul li fieldset label{
+	padding-right:5px;	
+}
+div.attcControls ul li fieldset select{
+	font-size:1em;
+	padding:0px;
+	margin:0px;
+}
+
+input.attcEditCheckRadioBoxes{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}

@@ -1,0 +1,25 @@
+/* 
+    Document   : msgStyles
+    Created on : Jun 1, 2014, 8:29:17 PM
+    Author     : Nuzha
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.contents{
+                    width: 84%;
+                    -moz-border-radius: 20px;
+                    -webkit-border-radius: 20px;
+                    border-radius: 20px;
+                    margin: auto;
+                    padding: 20px;
+                    margin-top: 20px;
+                    margin-left: 20px;
+}
+#left{
+            margin-left: 75%;
+        }
+
